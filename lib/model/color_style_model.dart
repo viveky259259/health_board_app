@@ -10,10 +10,12 @@ class ColorStyleModel {
     switch (index) {
       // in progress
       case 1:
-        return ColorStyleModel(Colors.black, Colors.yellow);
+        return ColorStyleModel(Colors.black, Colors.white);
       case 2:
-        return ColorStyleModel(Colors.white, Colors.green);
+        return ColorStyleModel(Colors.black, Colors.yellow);
       case 3:
+        return ColorStyleModel(Colors.white, Colors.green);
+      case 4:
         return ColorStyleModel(Colors.white, Colors.red);
       default:
         return ColorStyleModel(Colors.black, Colors.white);
